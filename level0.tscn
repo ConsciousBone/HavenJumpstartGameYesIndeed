@@ -1,12 +1,13 @@
 [gd_scene format=4 uid="uid://bahat7dfvt6gn"]
 
+[ext_resource type="Texture2D" uid="uid://pt12x7a6x47r" path="res://assets/Clouds_7-flattened.png" id="1_04g2k"]
 [ext_resource type="Texture2D" uid="uid://d04eks6nim0s6" path="res://assets/GrassDirt.png" id="1_tgtrw"]
 [ext_resource type="Script" uid="uid://b8jjmptfmo5ce" path="res://portal.gd" id="2_f02tp"]
 [ext_resource type="PackedScene" uid="uid://bjj224y4qxoiq" path="res://level1.tscn" id="3_04g2k"]
 [ext_resource type="Texture2D" uid="uid://chk75tmemxgff" path="res://assets/Dimensional_Portal.png" id="4_f02tp"]
 [ext_resource type="PackedScene" uid="uid://idt0cl1r0kjw" path="res://Player.tscn" id="5_f02tp"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vxl8l"]
 texture = ExtResource("1_tgtrw")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -105,12 +106,20 @@ texture = ExtResource("1_tgtrw")
 
 [sub_resource type="TileSet" id="TileSet_wwx8e"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_1bvp3")
+sources/0 = SubResource("TileSetAtlasSource_vxl8l")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tgtrw"]
 size = Vector2(49, 80.75)
 
 [node name="Node" type="Node2D" unique_id=1072592927]
+
+[node name="Background" type="TextureRect" parent="." unique_id=782905244]
+texture_filter = 1
+offset_left = -26.0
+offset_top = -11.0
+offset_right = 1163.0
+offset_bottom = 655.0
+texture = ExtResource("1_04g2k")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1214025369]
 texture_filter = 1

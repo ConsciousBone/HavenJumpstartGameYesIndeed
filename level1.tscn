@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://bjj224y4qxoiq"]
 
 [ext_resource type="Texture2D" uid="uid://d04eks6nim0s6" path="res://assets/GrassDirt.png" id="1_dopym"]
+[ext_resource type="Texture2D" uid="uid://pt12x7a6x47r" path="res://assets/Clouds_7-flattened.png" id="1_ootpb"]
 [ext_resource type="PackedScene" uid="uid://idt0cl1r0kjw" path="res://Player.tscn" id="2_ootpb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v38iq"]
@@ -105,6 +106,14 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_v38iq")
 
 [node name="Level1" type="Node2D" unique_id=1851048849]
+
+[node name="Background" type="TextureRect" parent="." unique_id=65327300]
+texture_filter = 1
+offset_left = -26.0
+offset_top = -11.0
+offset_right = 1163.0
+offset_bottom = 655.0
+texture = ExtResource("1_ootpb")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1528440872]
 texture_filter = 1
