@@ -154,9 +154,6 @@ offset_bottom = -8.0
 theme_override_font_sizes/font_size = 27
 text = "level 2"
 
-[node name="Player" parent="." unique_id=1158620152 instance=ExtResource("3_ru4tf")]
-position = Vector2(88, 63)
-
 [node name="Coin" parent="." unique_id=642954239 instance=ExtResource("8_bbk5w")]
 position = Vector2(379, 212)
 
@@ -168,3 +165,6 @@ position = Vector2(868, 359)
 
 [node name="Coin4" parent="." unique_id=56149366 instance=ExtResource("8_bbk5w")]
 position = Vector2(867, 598)
+
+[node name="Player" parent="." unique_id=1158620152 instance=ExtResource("3_ru4tf")]
+position = Vector2(88, 63)

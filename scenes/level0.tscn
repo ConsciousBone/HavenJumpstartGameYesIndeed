@@ -144,9 +144,6 @@ position = Vector2(1052, 427.99997)
 scale = Vector2(2.65625, 2.65625)
 texture = ExtResource("6_6hrqr")
 
-[node name="Player" parent="." unique_id=1158620152 instance=ExtResource("7_wetln")]
-position = Vector2(91, 495)
-
 [node name="Label3" type="Label" parent="." unique_id=802872468]
 texture_filter = 1
 offset_left = 1050.0
@@ -167,3 +164,6 @@ position = Vector2(625, 405)
 
 [node name="Coin4" parent="." unique_id=588390674 instance=ExtResource("8_wrnl3")]
 position = Vector2(861, 358)
+
+[node name="Player" parent="." unique_id=1158620152 instance=ExtResource("7_wetln")]
+position = Vector2(91, 495)
