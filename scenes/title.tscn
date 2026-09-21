@@ -18,7 +18,7 @@ offset_right = 1163.0
 offset_bottom = 655.0
 texture = ExtResource("1_4ignj")
 
-[node name="Label2" type="Label" parent="." unique_id=996457155]
+[node name="ControlsLabel" type="Label" parent="." unique_id=996457155]
 texture_filter = 1
 layout_mode = 0
 offset_left = 870.0
@@ -34,7 +34,7 @@ esc -> back to title screen
 backspace -> reset level"
 horizontal_alignment = 1
 
-[node name="Label" type="Label" parent="." unique_id=898333847]
+[node name="TitleLabel" type="Label" parent="." unique_id=898333847]
 texture_filter = 1
 layout_mode = 0
 offset_left = 37.0
@@ -44,7 +44,7 @@ offset_bottom = 117.0
 theme_override_font_sizes/font_size = 36
 text = "haven jumpstart game yes indeed"
 
-[node name="Label3" type="Label" parent="Label" unique_id=1237723328]
+[node name="SubtitleLabel" type="Label" parent="TitleLabel" unique_id=1237723328]
 texture_filter = 1
 layout_mode = 0
 offset_left = 1.0
@@ -55,7 +55,7 @@ theme_override_font_sizes/font_size = 27
 text = "simple platformer for haven's jumpstart
 thing for haven event organisers :)"
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=2105997079]
+[node name="Haven" type="TextureRect" parent="." unique_id=2105997079]
 texture_filter = 1
 layout_mode = 0
 offset_left = 37.0
@@ -65,7 +65,7 @@ offset_bottom = 571.0
 texture = ExtResource("2_wosw1")
 expand_mode = 1
 
-[node name="Button" type="Button" parent="." unique_id=1138452731]
+[node name="StartButton" type="Button" parent="." unique_id=1138452731]
 texture_filter = 1
 layout_mode = 0
 offset_left = 755.0
@@ -75,4 +75,4 @@ offset_bottom = 570.0
 theme_override_font_sizes/font_size = 27
 text = "start"
 
-[connection signal="pressed" from="Button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]

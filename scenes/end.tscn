@@ -18,7 +18,7 @@ offset_right = 1163.0
 offset_bottom = 655.0
 texture = ExtResource("2_bvfni")
 
-[node name="Label" type="Label" parent="." unique_id=898333847]
+[node name="TitleLabel" type="Label" parent="." unique_id=898333847]
 texture_filter = 1
 layout_mode = 0
 offset_left = 37.0
@@ -28,7 +28,7 @@ offset_bottom = 117.0
 theme_override_font_sizes/font_size = 36
 text = "you've finished!"
 
-[node name="Label3" type="Label" parent="Label" unique_id=1237723328]
+[node name="SubtitleLabel" type="Label" parent="TitleLabel" unique_id=1237723328]
 texture_filter = 1
 layout_mode = 0
 offset_left = 1.0
@@ -36,13 +36,13 @@ offset_top = 61.0
 offset_right = 590.0
 offset_bottom = 243.0
 theme_override_font_sizes/font_size = 27
-text = "that's a wrap, hopefully you had (at least
-some) fun playing this...
+text = "hopefully you had (at least some) fun
+while playing this incredibly basic game...
 
 click the button in the bottom right corner
 to go back to the title screen!"
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=2105997079]
+[node name="Haven" type="TextureRect" parent="." unique_id=2105997079]
 texture_filter = 1
 layout_mode = 0
 offset_left = 964.0
@@ -52,7 +52,7 @@ offset_bottom = 162.0
 texture = ExtResource("3_s4tl2")
 expand_mode = 1
 
-[node name="Button" type="Button" parent="." unique_id=1138452731]
+[node name="TitleButton" type="Button" parent="." unique_id=1138452731]
 texture_filter = 1
 layout_mode = 0
 offset_left = 755.0
@@ -62,4 +62,4 @@ offset_bottom = 570.0
 theme_override_font_sizes/font_size = 27
 text = "back to title"
 
-[connection signal="pressed" from="Button" to="." method="_on_title_button_pressed"]
+[connection signal="pressed" from="TitleButton" to="." method="_on_title_button_pressed"]
