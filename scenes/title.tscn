@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://8ciq513j5vfs"]
 
 [ext_resource type="Texture2D" uid="uid://d0twndqrrft6j" path="res://assets/Clouds_7-flattened-dark.png" id="1_4ignj"]
-[ext_resource type="Script" uid="uid://cr4h1370x42np" path="res://scripts/button.gd" id="1_p6dhs"]
+[ext_resource type="Script" uid="uid://cjnr7gn250hws" path="res://scripts/title.gd" id="1_p6dhs"]
 [ext_resource type="Texture2D" uid="uid://rc4l16dkidlc" path="res://assets/haven_logo.png" id="2_wosw1"]
 
 [node name="Title" type="Control" unique_id=1267655873]
