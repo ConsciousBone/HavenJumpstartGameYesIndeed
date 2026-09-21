@@ -4,18 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://g2jfsdwx8l20" path="res://assets/AnimationSheet.png" id="2_v6fml"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kpjcp"]
-size = Vector2(128, 97.83333)
+size = Vector2(160, 125.66667)
 
 [node name="Player" type="CharacterBody2D" unique_id=1158620152]
 script = ExtResource("2_kpjcp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=144264180]
-position = Vector2(0, 6.2413783)
-scale = Vector2(0.1875, 0.4137931)
-shape = SubResource("RectangleShape2D_kpjcp")
-
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1487513553]
 texture_filter = 1
 position = Vector2(0.015625, 6.196551)
-scale = Vector2(2.3968751, 2.3760648)
+scale = Vector2(3, 3)
 texture = ExtResource("2_v6fml")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=144264180]
+position = Vector2(0, 6)
+scale = Vector2(0.1875, 0.4137931)
+shape = SubResource("RectangleShape2D_kpjcp")

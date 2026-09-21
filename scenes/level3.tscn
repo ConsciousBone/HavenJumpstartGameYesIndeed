@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b3h7r6lkwnrda" path="res://scenes/level4.tscn" id="5_b72m1"]
 [ext_resource type="Texture2D" uid="uid://chk75tmemxgff" path="res://assets/Dimensional_Portal.png" id="6_qewby"]
 [ext_resource type="PackedScene" uid="uid://idt0cl1r0kjw" path="res://scenes/Player.tscn" id="7_bradm"]
+[ext_resource type="PackedScene" uid="uid://dmp06krdt6jna" path="res://scenes/Coin.tscn" id="8_5mhml"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v38iq"]
 texture = ExtResource("3_rupth")
@@ -154,4 +155,16 @@ scale = Vector2(2.65625, 2.65625)
 texture = ExtResource("6_qewby")
 
 [node name="Player" parent="." unique_id=1158620152 instance=ExtResource("7_bradm")]
-position = Vector2(85, 354)
+position = Vector2(85, 351)
+
+[node name="Coin" parent="." unique_id=642954239 instance=ExtResource("8_5mhml")]
+position = Vector2(307, 308)
+
+[node name="Coin2" parent="." unique_id=1479513969 instance=ExtResource("8_5mhml")]
+position = Vector2(501, 261)
+
+[node name="Coin3" parent="." unique_id=1072384633 instance=ExtResource("8_5mhml")]
+position = Vector2(694, 309)
+
+[node name="Coin4" parent="." unique_id=1357372067 instance=ExtResource("8_5mhml")]
+position = Vector2(838, 214)
