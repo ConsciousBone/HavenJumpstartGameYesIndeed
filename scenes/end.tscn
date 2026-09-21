@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://d3v1hfrbvdv4o"]
+
+[ext_resource type="Script" uid="uid://cr4h1370x42np" path="res://scripts/button.gd" id="1_p7m4f"]
+[ext_resource type="Texture2D" uid="uid://d0twndqrrft6j" path="res://assets/Clouds_7-flattened-dark.png" id="2_bvfni"]
+[ext_resource type="Texture2D" uid="uid://rc4l16dkidlc" path="res://assets/haven_logo.png" id="3_s4tl2"]
+
+[node name="Title" type="Control" unique_id=1267655873]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_p7m4f")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1186361584]
+texture_filter = 1
+layout_mode = 0
+offset_left = -26.0
+offset_top = -11.0
+offset_right = 1163.0
+offset_bottom = 655.0
+texture = ExtResource("2_bvfni")
+
+[node name="Label" type="Label" parent="." unique_id=898333847]
+texture_filter = 1
+layout_mode = 0
+offset_left = 37.0
+offset_top = 66.0
+offset_right = 626.0
+offset_bottom = 117.0
+theme_override_font_sizes/font_size = 36
+text = "you've finished!"
+
+[node name="Label3" type="Label" parent="Label" unique_id=1237723328]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 61.0
+offset_right = 590.0
+offset_bottom = 243.0
+theme_override_font_sizes/font_size = 27
+text = "that's a wrap, hopefully you had (at least
+some) fun playing this...
+
+click the button in the bottom right corner
+to go back to the title screen!"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2105997079]
+texture_filter = 1
+layout_mode = 0
+offset_left = 964.0
+offset_top = 71.0
+offset_right = 1105.2261
+offset_bottom = 162.0
+texture = ExtResource("3_s4tl2")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1138452731]
+texture_filter = 1
+layout_mode = 0
+offset_left = 755.0
+offset_top = 501.0
+offset_right = 1116.0
+offset_bottom = 570.0
+theme_override_font_sizes/font_size = 27
+text = "back to title"
+
+[connection signal="pressed" from="Button" to="." method="_on_title_button_pressed"]

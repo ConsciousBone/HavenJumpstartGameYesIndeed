@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://pt12x7a6x47r" path="res://assets/Clouds_7-flattened.png" id="2_5cjb5"]
 [ext_resource type="Texture2D" uid="uid://d04eks6nim0s6" path="res://assets/GrassDirt.png" id="3_q6sfj"]
 [ext_resource type="Script" uid="uid://b8jjmptfmo5ce" path="res://scripts/portal.gd" id="4_0wxwt"]
-[ext_resource type="PackedScene" uid="uid://bjj224y4qxoiq" path="res://scenes/level1.tscn" id="5_5tkub"]
+[ext_resource type="PackedScene" uid="uid://d3v1hfrbvdv4o" path="res://scenes/end.tscn" id="5_vxn4p"]
 [ext_resource type="Texture2D" uid="uid://chk75tmemxgff" path="res://assets/Dimensional_Portal.png" id="6_jvphm"]
 [ext_resource type="PackedScene" uid="uid://idt0cl1r0kjw" path="res://scenes/Player.tscn" id="7_g1xgd"]
 
@@ -141,7 +141,7 @@ tile_set = SubResource("TileSet_v8kj3")
 [node name="Portal" type="Area2D" parent="." unique_id=965805163]
 position = Vector2(-2, 53.000004)
 script = ExtResource("4_0wxwt")
-target_scene = ExtResource("5_5tkub")
+target_scene = ExtResource("5_vxn4p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Portal" unique_id=1106657571]
 position = Vector2(39, 191.12497)
