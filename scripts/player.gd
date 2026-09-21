@@ -1,8 +1,7 @@
 extends CharacterBody2D
 
-
 const SPEED = 200.0
-const JUMP_VELOCITY = -450.0
+const JUMP_VELOCITY = -525.0
 		
 func _ready() -> void:
 	print("player ready, adding to player group")
@@ -24,5 +23,8 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+	
+	if direction != 0:
+		$Sprite2D.flip_h = (direction < 0) # flip horiz when moving right/left
 
 	move_and_slide()
