@@ -7,4 +7,5 @@ func _ready() -> void:
 
 func _on_title_button_pressed() -> void:
 	print("title button pressed, moving to title")
+	GameManager.reset_coin_count()
 	get_tree().change_scene_to_file("res://scenes/title.tscn")
