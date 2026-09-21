@@ -144,5 +144,14 @@ position = Vector2(1052, 427.99997)
 scale = Vector2(2.65625, 2.65625)
 texture = ExtResource("4_ejswk")
 
+[node name="Label3" type="Label" parent="Portal" unique_id=955922504]
+texture_filter = 1
+offset_left = 1050.0
+offset_top = -45.0
+offset_right = 1133.0
+offset_bottom = -8.0
+theme_override_font_sizes/font_size = 27
+text = "level 2"
+
 [node name="Player" parent="." unique_id=1158620152 instance=ExtResource("3_ru4tf")]
 position = Vector2(88, 65)

@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 
 const SPEED = 200.0
-const JUMP_VELOCITY = -500.0
+const JUMP_VELOCITY = -450.0
 		
 func _ready() -> void:
 	print("player ready, adding to player group")
