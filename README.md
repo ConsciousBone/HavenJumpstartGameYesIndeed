@@ -9,7 +9,8 @@ I need to say more? OK then, it's got:
 - Movement
 - A player
 - Grass
-It truly is just a simple platformer!
+  
+It truly is just a simple platformer! You can jump from platform, collecting coins as you go, and move through the game by going through portals. Nothing fancy, but hey, it's a platformer!
 
 # Screenshots
 <img src="/screenshots/1.png" width=384> <img src="/screenshots/2.png" width=384>  
@@ -40,7 +41,7 @@ Alternatively, you can download the repo, open the project in Godot, and run it 
 
 # Tools/websites I used to make this
 - The [Haven Jumpstart guide](https://haven.jumpstart.hackclub.com/)
-- Google Search to find assets and solutions to bugs I encountered (I did not use the AI overview)
+- Google Search to help in finding assets and solutions to bugs I encountered (I did not use the AI overview)
 - itch.io to find assets
 
 # Tools/websites I didn't use to make this
