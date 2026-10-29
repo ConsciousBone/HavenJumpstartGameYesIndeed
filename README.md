@@ -1,9 +1,9 @@
 # haven jumpstart game yes indeed
 A simple platformer I made in Godot. Need I say more?  
 I need to say more? OK then, it's got:
-- Coins
-- Levels
-- Portals
+- 27 coins
+- 5 levels
+- 5 portals, 1 on every level
 - A start screen
 - An end screen
 - Movement
@@ -12,7 +12,9 @@ I need to say more? OK then, it's got:
 It truly is just a simple platformer!
 
 # Screenshots
-todo: put the stuff here
+<img src="/screenshots/1.png" width=384> <img src="/screenshots/2.png" width=384>  
+<img src="/screenshots/3.png" width=384> <img src="/screenshots/4.png" width=384>  
+<img src="/screenshots/5.png" width=384> <img src="/screenshots/6.png" width=384>  
 
 # Gameplay
 This game is very simple! You use these keys:
